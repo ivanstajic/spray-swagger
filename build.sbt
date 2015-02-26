@@ -12,7 +12,7 @@ libraryDependencies ++= Seq(
   "io.spray" %% "spray-routing-shapeless2" % "1.3.2",
   "io.spray" %% "spray-testkit" % "1.3.2" % "test",
   "org.scalatest" %% "scalatest" % "2.2.0" % "test" ,
-  "com.wordnik" %% "swagger-core" % "1.3.10" excludeAll( ExclusionRule(organization = "org.json4s"),  ExclusionRule(organization="org.fasterxml*") ),
+  "com.wordnik" %% "swagger-core" % "1.3.12" excludeAll( ExclusionRule(organization = "org.json4s"),  ExclusionRule(organization="org.fasterxml*") ),
   "com.typesafe.akka" %% "akka-actor" % "2.3.3",
   "org.json4s" %% "json4s-jackson" % "3.2.11",
   "org.json4s" %% "json4s-native" % "3.2.11",
